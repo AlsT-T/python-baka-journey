@@ -1,0 +1,1 @@
+print(f"今天是{__import__('datetime').date.today()},baka 你好")
