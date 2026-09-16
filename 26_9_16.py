@@ -92,4 +92,50 @@ print(waifus)
 print(f'\nMy wifes are:')
 print(wifes)
 
+#Tuple 元组
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+#不能修改元组中的元素，但可以给表示元祖的变量赋值
+#一个元素的元组必须在元素后加逗号，如：dimensions = (200,)
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400, 100)
+print("\nmodified dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+#if语句
+cars = ['audi', 'bmw', 'subaru', 'toyota']
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
+#两个等号(==)表示相等，单个等号(=)表示赋值
+
+requested_topping = 'mushrooms'
+if requested_topping != 'anchovies':
+    print("Hold the anchovies!")
+
+age = 18
+age == 18
+print(age == 18)
+print(age > 1)
+print(age <= 17 and age > 1)
+
+age_0 = 22
+age_1 = 18
+if age_0 >= 21 or age_1 >= 21:
+    print("You can enter the club.")
+
+requested_toppings = ['mushrooms', 'onions', 'pineapple']
+print('mushrooms' in requested_toppings)
+print('bananas' not in requested_toppings)
+
+game_active = True
+can_edit = False
+print(can_edit)
+
 
